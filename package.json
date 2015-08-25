@@ -1,0 +1,31 @@
+{
+  "name": "react-native-webpack-server-example",
+  "version": "0.0.1",
+  "description": "Example React Native project using react-native-webpack-server",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-native-webpack-server start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottsj/react-native-webpack-server-example.git"
+  },
+  "author": "Spencer Elliott <me@elliottsj.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliottsj/react-native-webpack-server-example/issues"
+  },
+  "homepage": "https://github.com/elliottsj/react-native-webpack-server-example#readme",
+  "dependencies": {
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "react-native": "^0.9.0"
+  },
+  "devDependencies": {
+    "react-hot-loader": "^1.2.9",
+    "react-native-webpack-server": "elliottsj/react-native-webpack-server#cd0c1111350f4955edde5d750d4cdadac290c2da",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
